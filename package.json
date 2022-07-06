@@ -1,0 +1,29 @@
+{
+  "name": "gulp-gcloud-sync",
+  "version": "1.0.0",
+  "description": "Gulp plugin to sync files to a Google Cloud Storage bucket",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dooly-ai/gulp-gcloud-sync.git"
+  },
+  "keywords": [
+    "gcp",
+    "gcloud",
+    "google",
+    "cloud",
+    "storage",
+    "gulp-plugin"
+  ],
+  "author": "Kainage",
+  "license": "Unlicense",
+  "homepage": "https://github.com/dooly-ai/gulp-gcloud-sync",
+  "dependencies": {
+    "@google-cloud/storage": "^6.2.2",
+    "ansi-colors": "^4.1.3",
+    "fancy-log": "^2.0.0",
+    "mime": "^3.0.0",
+    "plugin-error": "^2.0.0",
+    "readable-stream": "^4.0.0"
+  }
+}
